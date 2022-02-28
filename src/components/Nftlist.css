@@ -1,0 +1,29 @@
+.nftlist {
+   cursor: pointer;
+   display: flex;
+   overflow: scroll;
+   padding: 10px;
+   margin-top: 10px;
+   overflow-y: hidden
+   
+}
+
+.nftlist::-webkit-scrollbar {
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+.nftlist::-webkit-scrollbar-thumb {
+   background-color:  #e3d5cc;
+   border-radius: 10px;
+
+ }
+
+ .nftlist::-webkit-scrollbar-corner {
+   display: none;
+ }
+
+ .nftlist::-webkit-scrollbar-track-piece {
+   background-color:#2b2f32 ;   
+   border-radius: 5px;
+}

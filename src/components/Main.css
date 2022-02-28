@@ -1,0 +1,75 @@
+.main {
+   max-height: 700vh;
+   display: flex; 
+   border-bottom: 1px solid #2b2f32 ;
+   padding-bottom: 18px;
+   padding-top: 10px;
+}
+
+.mainpicture {
+   flex: 0.25;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.mainpicture img {
+   margin-left:10px ;
+   object-fit: contain;
+   max-width: min(30vw, 40vw);
+   max-height: 28vw;
+   border-radius: 30px;
+}
+
+.maincontent {
+   margin-left: 30px;
+   display: flex;
+   flex-direction:column;
+   justify-content:space-between ;
+   flex: 0.75;
+}
+
+.nameid span {
+   padding: 10px;
+   font-size: 50px;
+   font-weight: 800;
+}
+
+.id {
+   color: bisque;
+}
+
+.name {
+   color: aliceblue;
+}
+
+.bottominfo {
+   display: flex; 
+   justify-content: space-between;
+}
+
+.userinfo {
+   padding: 10px;
+   color: rgb(170, 170, 170);
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.ownerinsta {
+   color: aquamarine;
+   font-size: 15px;
+}
+
+.social {
+   display: flex; 
+   padding: 10px;
+}
+
+.social div img{
+   cursor: pointer;
+   margin-right: 5px;
+   max-width: 50px;
+   background-color: #2b2f32;
+   border-radius: 10px;
+}
+
