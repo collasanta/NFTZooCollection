@@ -32,7 +32,7 @@ const Main = ({nftListData, selectedNft}) => {
                </div>
 
                <div className='openSea'>
-                  <a href={`https://testnets.opensea.io/${etheraddress}`} target="_blank"><img src={opensea}/></a>
+                  <a href={`https://testnets.opensea.io/${etheraddress}`} target="_blank"><img src={opensea}alt=''/></a>
                </div>
 
                <div className='bottominfo'>
