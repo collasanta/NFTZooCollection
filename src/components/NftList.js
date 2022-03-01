@@ -3,6 +3,7 @@ import CollectionCard from './CollectionCard'
 import './Nftlist.css'
 
 const NftList = ({ nftListData, setSelectedNft }) => {
+   
   return (
     <div className='nftlist'>
        {nftListData.map(nft=>(
@@ -11,7 +12,7 @@ const NftList = ({ nftListData, setSelectedNft }) => {
             key = {nft.id}
             id = {nft.id}
             name = {nft.name}
-            properties = {nft.properties}
+            properties = {nft.properties.price}
             image = {nft.image}
             />
           </div>
